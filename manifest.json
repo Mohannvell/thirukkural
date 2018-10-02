@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Thirukkural",
+	"description": "Thirukkural for your Chrome browser.",
+	"version": "2.0.0",
+	"author": "Mohanvel V",
+	"browser_action": {
+		"default_title": "Thirukkural",
+		"default_icon": "src/assets/favicon.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"icons": {
+		"128": "src/assets/favicon.png"
+	},
+	"permissions": ["activeTab"]
+}

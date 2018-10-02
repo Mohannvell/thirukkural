@@ -1,0 +1,29 @@
+.thirukkural-box{
+	display: flex;
+	max-width: 70%;
+	margin: auto;
+	font-size: 32px;
+	/* color: #F7F9F9; */
+	  /* color: #EA0D2B;   */
+	 /* color: #ED0727; */
+	 color: #F0150A;
+}
+
+.thirukkural-box i{
+	margin-right: 0.4em;
+}
+
+.kural{ margin:0 !important; }
+
+.sideimage{
+	position: Right;
+}
+
+img{
+	display: inline-block;
+}
+
+body {
+    background-image: assets/Bg1.png;
+    
+}
